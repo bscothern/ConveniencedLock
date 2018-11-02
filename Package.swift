@@ -15,7 +15,9 @@ let package = Package(
     targets: [
         .target(
             name: "ConveniencedLock",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources/ConveniencedLock"
+        ),
         .testTarget(
             name: "ConveniencedLockTests",
             dependencies: ["ConveniencedLock"]),

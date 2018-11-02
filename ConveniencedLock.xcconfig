@@ -1,0 +1,12 @@
+//
+//  ConveniencedLock.xcconfig
+//  ConveniencedLock
+//
+//  Created by Braden Scothern on 11/1/18.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_NAME = ConveniencedLock
+INFOPLIST_FILE = Info.plist

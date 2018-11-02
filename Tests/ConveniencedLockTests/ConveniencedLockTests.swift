@@ -48,7 +48,7 @@ private func multithreadedTest(lock: ConveniencedLock, expectedCount: Int = 1000
             }
         }
     }
-    usleep(1000 * UInt32(expectedCount))
+    usleep(2000 * UInt32(expectedCount))
     XCTAssert(count == expectedCount, "\(#function) failed by \(lock.name!). Had a count of: \(count) but expected \(expectedCount)")
 }
 
@@ -93,7 +93,7 @@ private func returningTest(lock: ConveniencedLock, count: Int = 100) {
         }
         expectedResult += i
     }
-    usleep(1000 * UInt32(count))
+    usleep(2000 * UInt32(count))
     let resultSum = results.reduce(0, +)
     XCTAssert(expectedResult == resultSum, "\(#function) failed by \(lock.name!). Results didn't summ to expected value of \(expectedResult) and instead summed to \(resultSum)")
 }
