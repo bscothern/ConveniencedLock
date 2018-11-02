@@ -9,4 +9,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 PRODUCT_NAME = ConveniencedLock
-INFOPLIST_FILE = Info.plist
+INFOPLIST_FILE = SupportFiles/Info.plist
