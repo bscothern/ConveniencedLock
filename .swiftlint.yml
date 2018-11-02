@@ -1,17 +1,10 @@
 included:
     - ./Sources
     - ./Tests
-    - ./Tools
-    - ./Utility
-
-function_parameter_count:
-    warning: 8
-    error: 25
 
 opt_in_rules:
     - first_where
     - sorted_first_last
-    # - missing_docs
 
 disabled_rules:
     - mark
