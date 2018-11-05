@@ -17,6 +17,14 @@ Update your `Package.swift` to include this to your package dependencies:
 ```
 
 ## Extensions
+Supported Types:
+```
+NSLock
+NSRecursiveLock
+NSCondition
+NSConditionLock
+```
+
 ### New Init
 
 Creates an instance of a lock while setting its name.
