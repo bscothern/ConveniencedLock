@@ -13,7 +13,7 @@ github "bscothern/ConveniencedLock"
 
 Update your `Package.swift` to include this to your package dependencies:
 ```
-.package(url: "https://github.com/bscothern/ConveniencedLock.git", from: "1.0.0")
+.package(url: "https://github.com/bscothern/ConveniencedLock.git", from: "1.0.1")
 ```
 
 ## Extensions
