@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ConveniencedLock iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ConveniencedLock macOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ConveniencedLock tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ConveniencedLock watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F8F0FAB2218C1BD900D6B415</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8F0FABA218C1BD900D6B415</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8F0FACE218C1BF500D6B415</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8F0FAEA218C1C1300D6B415</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8F0FAF7218C1C2200D6B415</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
