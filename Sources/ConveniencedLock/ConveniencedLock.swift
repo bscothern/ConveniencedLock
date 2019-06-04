@@ -32,7 +32,6 @@ import Foundation
 
 /// A protocol that makes it easier to work with NSLocking types.
 public protocol ConveniencedLock: NSLocking {
-
     /// The name associated with the lock.
     var name: String? { get set }
 
@@ -46,7 +45,7 @@ public extension ConveniencedLock {
     /// Creates an instance of the lock while setting its name.
     ///
     /// - Parameter name: The name to associate with the lock.
-    public init(name: String) {
+    init(name: String) {
         self.init()
         self.name = name
     }
@@ -57,9 +56,9 @@ public extension ConveniencedLock {
     /// - Returns: The return value of the `criticalBlock` that is protected by the lock.
     /// - Throws: Any value thrown by the `criticalBlock`.
     @discardableResult
-    public func execute<T>(_ criticalBlock: () throws -> T) rethrows -> T {
-        self.lock()
-        defer { self.unlock() }
+    func execute<T>(_ criticalBlock: () throws -> T) rethrows -> T {
+        lock()
+        defer { unlock() }
         return try criticalBlock()
     }
 }

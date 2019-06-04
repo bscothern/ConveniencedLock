@@ -28,9 +28,9 @@
 //  Copyright © 2018 Braden Scothern. All rights reserved.
 //
 
-import XCTest
-import Foundation
 @testable import ConveniencedLock
+import Foundation
+import XCTest
 
 final class ConveniencedLockTests: XCTestCase {
     func testNSLock() {
@@ -71,11 +71,9 @@ final class ConveniencedLockTests: XCTestCase {
 
 private func multithreadedTest(lock: ConveniencedLock, expectedCount: Int = 1000) {
     var count = 0
-    for _ in 0 ..< expectedCount {
-        DispatchQueue.global().async {
-            lock.execute {
-                count += 1
-            }
+    DispatchQueue.concurrentPerform(iterations: expectedCount) { _ in
+        lock.execute {
+            count += 1
         }
     }
     usleep(2000 * UInt32(expectedCount))

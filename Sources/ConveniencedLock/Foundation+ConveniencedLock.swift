@@ -30,14 +30,10 @@
 
 import Foundation
 
-extension NSLock: ConveniencedLock {
-}
+extension NSLock: ConveniencedLock {}
 
-extension NSRecursiveLock: ConveniencedLock {
-}
+extension NSRecursiveLock: ConveniencedLock {}
 
-extension NSCondition: ConveniencedLock {
-}
+extension NSCondition: ConveniencedLock {}
 
-extension NSConditionLock: ConveniencedLock {
-}
+extension NSConditionLock: ConveniencedLock {}
